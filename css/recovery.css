@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #5e9ca0, #3996E0);
+}
+
+#layoutAuthentication {
+    width: 400px;
+    padding: 20px;
+    border-top-left-radius: 80px; /* Esquina superior izquierda redondeada */
+    border-top-right-radius: 5px;  /* Esquina superior derecha ligeramente redondeada */
+    border-bottom-left-radius: 5px; /* Esquina inferior izquierda ligeramente redondeada */
+    border-bottom-right-radius: 80px; /* Esquina inferior derecha redondeada */
+    height: 400px;
+    background: #3996E0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-header h3 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #00f9ff;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-footer .small a {
+    color: #00f9ff;
+}
+
+.btn-primary:hover {
+    background: #00d1e0;
+}
+
+#layoutAuthentication .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#layoutAuthentication_content {
+    flex-grow: 1;
+}
+
+#layoutAuthentication_footer {
+    flex-shrink: 0;
+}
+
+a.btn-primary,
+a.small {
+    text-decoration: none;
+}
+
+a.btn-primary {
+    background: #00f9ff;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a.btn-primary:hover {
+    background: #00d1e0;
+}
+
+a.small {
+    display: block;
+    margin-top: 10px;
+    color: #00f9ff;
+}
+
+a.small:hover {
+    color: #00d1e0;
+}
